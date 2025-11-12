@@ -23,7 +23,7 @@ namespace Studio.Barber.Backend.Controller;
     }
     
     [HttpPut("{id}")]
-    public async Task<ActionResult<UserDTO>> Atualizar(int id, [FromBody] UserEditDTO dto)
+    public async Task<ActionResult<UserDTO>> Atualizar(string id, [FromBody] UserEditDTO dto)
     {
         if (id != dto.Id)
             return BadRequest("ID da URL não corresponde ao ID do body");
@@ -36,7 +36,7 @@ namespace Studio.Barber.Backend.Controller;
     }
     
     [HttpDelete("{id}")]
-    public async Task<ActionResult> Delete(int id)
+    public async Task<ActionResult> Delete(string id)
     {
         var sucesso = await _service.Delete(id);
         if (!sucesso)
@@ -46,7 +46,7 @@ namespace Studio.Barber.Backend.Controller;
     }
     
     [HttpGet("{id}")]
-    public async Task<ActionResult<UserDTO>> GetById(int id)
+    public async Task<ActionResult<UserDTO>> GetById(string id)
     {
         var usuario = await _service.GetById(id);
         if (usuario == null)

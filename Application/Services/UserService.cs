@@ -20,9 +20,7 @@ public class UserService :  IUserService
         {
             name = dto.Name,
             email = dto.Email,
-            password = dto.Password,
-            role = dto.Role,
-            createdAt = DateTime.UtcNow
+            role = dto.Role
         };
         
         var result = await _repository.Create(usuario);
@@ -32,9 +30,7 @@ public class UserService :  IUserService
             Id = result.id,
             Name = result.name,
             Email = result.email,
-            Password = result.password,
-            Role = result.role,
-            CreatedAt = result.createdAt
+            Role = result.role
         };
     }
     
@@ -52,17 +48,16 @@ public class UserService :  IUserService
         {
             Id = resultado.id,
             Name = resultado.name,
-            Email = resultado.email,
-            CreatedAt = resultado.createdAt
+            Email = resultado.email
         };
     }
     
-    public async Task<bool> Delete(int id)
+    public async Task<bool> Delete(string id)
     {
         return await _repository.Delete(id);
     }
     
-    public async Task<UserDTO> GetById(int id)
+    public async Task<UserDTO> GetById(string id)
     {
         var user = await _repository.GetUserById(id);
         if (user == null) return null;
@@ -71,8 +66,7 @@ public class UserService :  IUserService
         {
             Id = user.id,
             Name = user.name,
-            Email = user.email,
-            CreatedAt = user.createdAt
+            Email = user.email
         };
     }
     
@@ -84,8 +78,7 @@ public class UserService :  IUserService
         {
             Id = u.id,
             Name = u.name,
-            Email = u.email,
-            CreatedAt = u.createdAt
+            Email = u.email
         });
     }
 }

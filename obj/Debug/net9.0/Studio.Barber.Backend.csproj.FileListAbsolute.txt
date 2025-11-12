@@ -152,3 +152,9 @@ D:\Projetos\Studio.Barber.Backend\Studio.Barber.Backend\obj\Debug\net9.0\refint\
 D:\Projetos\Studio.Barber.Backend\Studio.Barber.Backend\obj\Debug\net9.0\Studio.Barber.Backend.pdb
 D:\Projetos\Studio.Barber.Backend\Studio.Barber.Backend\obj\Debug\net9.0\Studio.Barber.Backend.genruntimeconfig.cache
 D:\Projetos\Studio.Barber.Backend\Studio.Barber.Backend\obj\Debug\net9.0\ref\Studio.Barber.Backend.dll
+D:\Projetos\Studio.Barber.Backend\Studio.Barber.Backend\bin\Debug\net9.0\Npgsql.dll
+D:\Projetos\Studio.Barber.Backend\Studio.Barber.Backend\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Projetos\Studio.Barber.Backend\Studio.Barber.Backend\obj\Debug\net9.0\Studio.Barber.Backend.sourcelink.json
+D:\Projetos\Studio.Barber.Backend\Studio.Barber.Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projetos\Studio.Barber.Backend\Studio.Barber.Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projetos\Studio.Barber.Backend\Studio.Barber.Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

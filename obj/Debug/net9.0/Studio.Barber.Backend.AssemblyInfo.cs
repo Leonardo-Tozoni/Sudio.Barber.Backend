@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Studio.Barber.Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1910dfe01c956e7752e50f7c1d4a1c02c97ee0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Studio.Barber.Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Studio.Barber.Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
